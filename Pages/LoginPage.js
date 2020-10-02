@@ -1,4 +1,5 @@
 const I = actor();
+const assert = require("assert");
 module.exports = {
   LoginWithRedhat: "#red-hat-logo",
   LoginWithIBM: "#IBMLoginButton",
@@ -15,7 +16,7 @@ module.exports = {
     I.click("Next");
     I.click;
     I.wait(2);
-    I.fillField(this.Password, "July2020!");
+    I.fillField(this.Password, secret("July2020!"));
     I.wait(5);
     //I.click("Log In");
     //I.click({ css: "input#kc-login" });

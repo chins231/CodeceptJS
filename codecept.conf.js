@@ -10,13 +10,13 @@ exports.config = {
   helpers: {
     WebDriver: {
       url: "https://sandbox.marketplace.redhat.com/",
-      browser: "chrome",
-      // user: "sriranganathtott1",
-      // key: "RnpxzKsCupiRwwpY3vNz",
-      // desiredCapabilities: {
-      //   os: "osx",
-      //   browser_version: "10",
-      // },
+      browser: "safari",
+      user: "sriranganathtott1",
+      key: "RnpxzKsCupiRwwpY3vNz",
+      desiredCapabilities: {
+        os: "osx",
+        browser_version: "10",
+      },
 
       windowSize: "maximize",
       timeouts: {
